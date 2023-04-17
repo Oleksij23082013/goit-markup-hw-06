@@ -934,6 +934,10 @@ body {
     resize: none;
 }
 
+.modal-textarea:focus {
+    border-color: #4D5AE5;
+}
+
 .check-text {
     display: flex;
     align-items: center;
@@ -967,6 +971,7 @@ body {
 
 .privacy-link {
    padding-left: 4px;
+   color: #4D5AE5;
 }
 
 .backdrop-btn {
